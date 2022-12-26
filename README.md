@@ -10,26 +10,32 @@ It scrapes data from https://dictionary.cambridge.org and displays the level, de
 
 The default language for the definition is **English**, but you can specify a different language if desired.
 
-
-
 <br />
 
 ## 🪡 Simple Usage
+
 Type `cambridge-cli` into your terminal and enter your word. That's it!
 
 <img src="https://user-images.githubusercontent.com/17620102/209534443-96b33937-a20c-4f9e-be24-9279cd6e1629.gif" width="600px" alt="simple-usage">
 
-
 ## ⚙️ Options
+
 `cambridge-cli` has 2 flags:
 
 - `-language` (to set language)
 - `-showAllMeanings` (to display all of the meanings of the word)
 
 #### ⌨️ Usage:
+
 - `cambridge-cli -language=turkish` or `cambridge-cli -language=japanese`
 - `cambridge-cli -showAllMeanings`
 
+### ⬇️ Download
+
+<a href="https://github.com/mburakerman/cambridge-cli/blob/main/cambridge-cli?raw=true"> Download </a>
+executable and put it inside your `[GOPATH]/bin` folder.
+
+🎉 Now you can use it globally in your terminal by typing `cambridge-cli`
 
 ## 💪🏼 Supported Languages
 
@@ -54,14 +60,11 @@ Type `cambridge-cli` into your terminal and enter your word. That's it!
 - 🇺🇦 Ukrainian
 - 🇻🇳 Vietnamese
 
-
-
 ## 🕹️ Usage Examples
 
 `-language` usage
 
 <img src="https://user-images.githubusercontent.com/17620102/209534556-2addcabe-f317-4b1d-91ee-bf52cbf1aad1.gif" width="600px" loading="lazy"  alt="usage-language">
-
 
 `-showAllMeanings` usage
 
